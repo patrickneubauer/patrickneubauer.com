@@ -1,0 +1,137 @@
+
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<TITLE>
+XMLText: From XML Schema to Xtext
+</TITLE>
+
+</HEAD>
+
+<BODY bgcolor="#fbd5b1">
+
+
+<div style="float:left">
+    <H1>XMLText: From XML Schema to Xtext</H1>
+</div>
+<div style="float:right">
+		<img src="XMLTextLogo.png" width="80"/>
+</div>
+
+<div style="clear:both;">
+<DL>
+<DT><B> Status </B>
+<DD> Published at <A target="_blank" href="http://www.sleconf.org/2015/">SLE 2015</A>
+<P>
+<DT><B>Authors</B>
+<DD>
+<A target="_blank" href="http://www.big.tuwien.ac.at/staff/pneubauer">Patrick Neubauer</A>
+and
+<A target="_blank" href="http://www.big.tuwien.ac.at/staff/abergmayr">Alexander Bergmayr</A>
+and
+<A target="_blank" href="http://www.big.tuwien.ac.at/staff/tmayerhofer">Tanja Mayerhofer</A>
+and
+<A target="_blank" href="http://www.big.tuwien.ac.at/staff/jtroya">Javier Troya</A>
+and
+<A target="_blank" href="http://www.big.tuwien.ac.at/staff/mwimmer">Manuel Wimmer</A>
+<P>
+<DT><B>Abstract</B>
+<DD>
+
+A multitude of Domain-Specific Languages (DSLs) have
+been implemented with XML Schemas. While such DSLs
+are well adopted and flexible, they miss modern DSL editor
+functionality. Moreover, since XML is primarily designed as
+a machine-processible format, artifacts defined with XMLbased
+DSLs lack comprehensibility and, therefore, maintainability.
+
+In order to tackle these shortcomings, we propose a
+bridge between the XML Schema Definition (XSD) language
+and text-based metamodeling frameworks. This bridge
+exploits existing seams between these two worlds and closes
+identified gaps. The resulting approach is able to generate
+Xtext-based editors from XSDs providing powerful editor
+functionality, customization options for the textual concrete
+syntax style, and round-trip transformations enabling the exchange
+of data between these two worlds.
+
+We evaluate our approach by a case study on TOSCA,
+which is an XML-based standard for defining Cloud deployments.
+The results show that our approach enables bridging
+XMLware with modelware and grammarware in several
+ways going beyond existing approaches and allows the automated
+generation of editors that are at least equivalent to
+editors manually built for XML-based languages.
+
+<P>
+<DT><B>Keywords</B>
+<DD>
+
+DSL, Language Engineering, Markup Language,
+Language Modernization, XSD, Xtext.
+
+<P>
+
+<DT><B> Bibtex entry </B>
+<DD>
+<PRE>
+@inproceedings{DBLP:conf/sle/NeubauerBMTW15,
+  author    = {Patrick Neubauer and
+               Alexander Bergmayr and
+               Tanja Mayerhofer and
+               Javier Troya and
+               Manuel Wimmer},
+  title     = {XMLText: from {XML} schema to xtext},
+  booktitle = {Proceedings of the 2015 {ACM} {SIGPLAN} International Conference on
+               Software Language Engineering, {SLE} 2015, Pittsburgh, PA, USA, October
+               25-27, 2015},
+  pages     = {71--76},
+  year      = {2015},
+  crossref  = {DBLP:conf/sle/2015},
+  url       = {<A target="_blank" href="http://doi.acm.org/10.1145/2814251.2814267">http://doi.acm.org/10.1145/2814251.2814267</A>},
+  doi       = {10.1145/2814251.2814267},
+  timestamp = {Tue, 27 Oct 2015 10:12:50 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/sle/NeubauerBMTW15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+</PRE>
+<P>
+<DT><B>Downloads and links</B>
+<DD>
+<UL>
+  <LI> Paper: <A target="_blank" href="sle-paper.pdf">[.pdf]</A></LI>
+  <LI> Slides: <A target="_blank" href="sle-presentation.pdf">[.pdf]</A></LI>
+  <LI> Repository: <A target="_blank" href="https://github.com/patrickneubauer/XMLText">[GitHub]</A>
+</UL>
+
+<DT><B>External Resources</B>
+<DD>
+<UL>
+  <LI> <A target="_blank" href="http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html">OASIS TOSCA standard specification</A>
+  <LI> <A target="_blank" href="https://github.com/cloudify-cosmo/cloudify-dsl-parser/blob/b9495371723e9c59a90f76b52886f36653c88f9a/dsl_parser/parser.py">Cloudify DSL parser</A>
+  <LI> <A target="_blank" href="https://eclipse.org/modeling/emf/">Eclipse Modeling Framework</A>
+  <LI> <A target="_blank" href="https://eclipse.org/Xtext/">Xtext framework</A>
+</UL>
+
+</DL>
+
+<BR>
+
+<P>
+    </div>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-15648520-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</BODY>
+
+</HTML>

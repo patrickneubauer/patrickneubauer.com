@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="400px"
+   version="1.1"
+   viewBox="0 0 400 400"
+   width="400px"
+   id="svg93"
+   sodipodi:docname="rocket3.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata97">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1393"
+     inkscape:window-height="743"
+     id="namedview95"
+     showgrid="false"
+     inkscape:zoom="1.18"
+     inkscape:cx="433.9461"
+     inkscape:cy="92.056249"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg93" />
+  <desc
+     id="desc4" />
+  <defs
+     id="defs54">
+    <path
+       d="M70.5,322.2147 C70.5,322.2147 123.196491,290.9417 131.480762,276.592921 C139.765033,262.244143 134.848779,243.896431 120.5,235.612159 C106.151221,227.327888 87.8035091,232.244143 79.5192379,246.592921 C71.2349666,260.9417 70.5,322.2147 70.5,322.2147 L70.5,322.2147 Z"
+       id="path-1" />
+    <filter
+       filterUnits="objectBoundingBox"
+       height="200%"
+       id="filter-2"
+       width="200%"
+       x="-50%"
+       y="-50%">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset7" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur9" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         id="feColorMatrix11" />
+    </filter>
+    <path
+       d="M133.576923,212.962264 C186.189112,243.337925 190.762794,333.91343 190.762794,333.91343 C221.138456,281.301241 203.112189,214.026296 150.5,183.650635 C97.8878114,153.274974 30.6128668,171.301241 0.237205584,223.91343 C0.237205584,223.91343 80.9647345,182.586603 133.576923,212.962264 L133.576923,212.962264 Z"
+       id="path-3" />
+    <filter
+       filterUnits="objectBoundingBox"
+       height="200%"
+       id="filter-4"
+       width="200%"
+       x="-50%"
+       y="-50%">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset15" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur17" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         id="feColorMatrix19" />
+    </filter>
+    <path
+       d="M95.5,278.91343 C112.820508,288.91343 183.278744,246.876185 227.461524,170.349365 C271.644304,93.8225452 272.820508,11.7853003 255.5,1.7853003 C238.179492,-8.2146997 167.721256,33.8225452 123.538476,110.349365 C79.3556958,186.876185 78.1794919,268.91343 95.5,278.91343 L95.5,278.91343 Z"
+       id="path-5" />
+    <filter
+       filterUnits="objectBoundingBox"
+       height="200%"
+       id="filter-6"
+       width="200%"
+       x="-50%"
+       y="-50%">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset23" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur25" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         id="feColorMatrix27" />
+    </filter>
+    <path
+       d="M162.552381,248.344107 C132.71956,273.357333 105.403966,284.631487 95.4759763,278.899559 C85.5479867,273.167632 81.6538932,243.874557 88.3995716,205.531963 L162.552381,248.344107 L162.552381,248.344107 Z"
+       id="path-7" />
+    <filter
+       filterUnits="objectBoundingBox"
+       height="200%"
+       id="filter-8"
+       width="200%"
+       x="-50%"
+       y="-50%">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset31" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur33" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         id="feColorMatrix35" />
+    </filter>
+    <path
+       d="M262.450113,75.0799824 C269.195792,36.7373887 265.301698,7.44431344 255.373709,1.71238599 C245.445719,-4.01954147 218.130125,7.25461233 188.297304,32.267838 L262.450113,75.0799824 L262.450113,75.0799824 L262.450113,75.0799824 Z"
+       id="path-9" />
+    <filter
+       filterUnits="objectBoundingBox"
+       height="200%"
+       id="filter-10"
+       width="200%"
+       x="-50%"
+       y="-50%">
+      <feOffset
+         dx="0"
+         dy="1"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset39" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur41" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         id="feColorMatrix43" />
+    </filter>
+    <path
+       d="M155.5,174.990381 C174.631705,186.036076 199.095321,179.48107 210.141016,160.349365 C221.186711,141.21766 214.631705,116.754044 195.5,105.708349 C176.368295,94.6626538 151.904679,101.21766 140.858984,120.349365 C129.813289,139.48107 136.368295,163.944686 155.5,174.990381 L155.5,174.990381 Z"
+       id="path-11" />
+    <filter
+       filterUnits="objectBoundingBox"
+       height="200%"
+       id="filter-12"
+       width="200%"
+       x="-50%"
+       y="-50%">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset47" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur49" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         type="matrix"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+         id="feColorMatrix51" />
+    </filter>
+    <clipPath
+       id="SVGID_2_">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         xlink:href="#SVGID_1_"
+         id="use17" />
+    </clipPath>
+    <clipPath
+       id="SVGID_4_">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         xlink:href="#SVGID_3_"
+         id="use29" />
+    </clipPath>
+    <clipPath
+       id="SVGID_6_">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         xlink:href="#SVGID_5_"
+         id="use41" />
+    </clipPath>
+    <clipPath
+       id="SVGID_8_">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="overflow:visible"
+         xlink:href="#SVGID_7_"
+         id="use53" />
+    </clipPath>
+    <circle
+       cx="260.836"
+       cy="267.65201"
+       id="SVGID_1_"
+       r="243" />
+    <circle
+       cx="260.836"
+       cy="267.65201"
+       id="SVGID_3_"
+       r="243" />
+    <circle
+       cx="260.836"
+       cy="267.65201"
+       id="SVGID_5_"
+       r="243" />
+    <circle
+       cx="260.836"
+       cy="267.65201"
+       id="SVGID_7_"
+       r="243" />
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="Page-1"
+     stroke="none"
+     stroke-width="1">
+    <g
+       id="rocket">
+      <path
+         d="m 200.30509,399.69491 c 110.45694,0 199.99999,-89.54305 199.99999,-199.99999 0,-110.456954 -89.54305,-200.0000095 -199.99999,-200.0000095 -110.456951,0 -200.000001,89.5430555 -200.000001,200.0000095 0,110.45694 89.54305,199.99999 200.000001,199.99999 z"
+         id="background"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;fill-opacity:1" />
+    </g>
+  </g>
+  <g
+     transform="matrix(4.05,0,0,4.05,66.122505,67.831175)"
+     id="Legs">
+    <g
+       id="g4">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 38,36.013 -6,6 -4,4 v 6 l -6,10 4,2 14,-14 z m -10,-10 -14,-2 -14,14 2,4 10,-6 h 6 l 4,-4 z"
+         style="clip-rule:evenodd;fill:#cccccc;fill-rule:evenodd"
+         id="path2" />
+    </g>
+  </g>
+  <g
+     transform="matrix(4.05,0,0,4.05,66.122505,67.831175)"
+     id="Flames">
+    <g
+       id="g9">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 10,44.013 c -3.939,5.748 -9.974,12.835 -10,16 -0.021,2.403 1.576,4.021 4,4 3.217,-0.027 10.011,-6.031 16,-10 z"
+         style="fill:#ffcc66"
+         id="path7" />
+    </g>
+  </g>
+  <g
+     transform="matrix(4.05,0,0,4.05,66.122505,67.831175)"
+     id="Flames_1_">
+    <g
+       id="g14">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 16,42.013 c -3.939,5.748 -12,12.835 -12,16 0,2.091 0.201,2 2,2 3.217,0 10.011,-8.031 16,-12 z"
+         style="fill:#ed7161"
+         id="path12" />
+    </g>
+  </g>
+  <g
+     transform="matrix(4.05,0,0,4.05,66.122505,67.831175)"
+     id="Body_2_">
+    <g
+       id="g19">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 60,0.013 C 53.714,0.402 42.862,1.15 30,14.013 20.539,23.474 12.239,37.231 8.348,46.36 l 9.367,9.367 C 26.793,51.874 40.459,43.553 50,34.013 c 12.779,-12.779 13.507,-23.669 14,-30 0.22,-2.826 -1.386,-4.162 -4,-4 z"
+         style="fill:#387aa7"
+         id="path17" />
+    </g>
+  </g>
+  <g
+     transform="matrix(4.05,0,0,4.05,66.122505,67.831175)"
+     id="Body_3_">
+    <g
+       id="g24">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 60,0.013 C 53.714,0.402 42.862,1.15 30,14.013 22.276,21.736 15.336,32.32 10.922,40.918 L 23.157,53.153 C 31.703,48.751 42.222,41.791 50,34.013 c 12.779,-12.779 13.507,-23.669 14,-30 0.22,-2.826 -1.386,-4.162 -4,-4 z"
+         style="fill:#48a0dc"
+         id="path22" />
+    </g>
+  </g>
+  <g
+     transform="matrix(4.05,0,0,4.05,66.122505,67.831175)"
+     id="Glass">
+    <g
+       id="g29">
+      <circle
+         cx="48"
+         cy="16.013"
+         r="8"
+         style="fill:#4d4d4d"
+         id="circle27" />
+    </g>
+  </g>
+  <g
+     transform="matrix(5.929605,0,0,5.929605,-24.098535,37.733059)"
+     id="Glass_1_">
+    <g
+       id="g34">
+      <circle
+         cx="48"
+         cy="16.013"
+         r="4"
+         style="fill:#ffffff"
+         id="circle32" />
+    </g>
+  </g>
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g37" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g39" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g41" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g43" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g45" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g47" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g49" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g51" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g53" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g55" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g57" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g59" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g61" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g63" />
+  <g
+     transform="translate(535.78668,22.230753)"
+     id="g65" />
+</svg>

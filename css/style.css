@@ -1,0 +1,544 @@
+/* backgrounds */
+.day { 
+  background: url('../img/background/current/day.jpg') no-repeat center center fixed;
+  background-size: cover; 
+}
+.sunset { 
+  background: url('../img/background/current/sunset.jpg') no-repeat center center fixed;
+  background-size: cover; 
+}
+.night { 
+  background: url('../img/background/current/night.jpg') no-repeat center center fixed;
+  background-size: cover; 
+}
+.morning { 
+  background: url('../img/background/current/morning.jpg') no-repeat center center fixed;
+  background-size: cover; 
+}
+
+body {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+}
+
+#launchpad {
+  display: none;
+}
+
+#launchpad.shown {
+  display: block;
+}
+
+#launchpad.shown.start {
+  -webkit-animation: show 0.4s 1;
+  animation: show 0.4s 1;
+}
+
+#launchpad.shown.end {
+  -webkit-animation: hide 0.4s 1;
+  animation: hide 0.4s 1;
+}
+
+#launchpad.shown .content {
+  /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=);
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP0rwcAASMA0Na265IAAAAASUVORK5CYII=); */
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#launchpad.shown .content:before {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  bottom: 0;
+  content: '';
+ -webkit-backdrop-filter: blur(10px);
+  filter: blur(10px);
+  backdrop-filter: blur(10px);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#launchpad.shown .content nav {
+  margin: 20px auto;
+  width: 90%;
+}
+
+#launchpad.shown .content nav a {
+  color: white;
+  -webkit-filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.4));
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+#launchpad.shown .content nav a:active {
+  opacity: .6;
+}
+
+#launchpad.shown .content nav.scale-down {
+  -webkit-animation: scale-down 0.4s 1;
+  animation: scale-down 0.4s 1;
+}
+
+#launchpad.shown .content nav.scale-up {
+  -webkit-animation: scale-up 0.4s 1;
+  animation: scale-up 0.4s 1;
+}
+
+.window {
+  background: #e8e8e8;
+  border-color: #4f4f4f;
+  border-width: 30px 0 0 0;
+  border-style: solid;
+  border-radius: 3px;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.2);
+  left: 50%;
+  margin: -160px 0 0 -320px;
+  min-height: 320px;
+  padding: 10px 30px;
+  position: absolute;
+  top: 50%;
+  width: 640px;
+}
+
+.window h1 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.window a {
+  color: #00BFFF;
+  text-decoration: none;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scale-up {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes scale-up {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes scale-down {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-down {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+a[class^="icon"] {
+  background-position: top;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 128px;
+  padding: 128px 0 0 0;
+  margin: 40px;
+  width: 128px;
+}
+
+.launchpad-text {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.connect-text {
+  text-align: center;
+  /*font-size: 10px;*/
+  margin-bottom: 15px;
+}
+
+/*.launchpad-icon {
+  background: url(../img/icons/rocket-inactive.svg);
+  background-size: 128px 128px;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: block;
+  height: 128px;
+  margin: 15px auto;
+  width: 128px;
+}*/
+
+.launchpad-icon {
+    background: url(../img/icons/rocket-inactive.svg)  no-repeat center;
+    background-size: 128px 128px;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block;
+    height: 128px;
+    margin: 15px auto;
+    margin-bottom: 2px;
+    width: 128px;
+
+    position: relative;
+
+}
+.launchpad-icon::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; right:0; bottom: 0;
+    background: url(../img/icons/rocket-active.svg) no-repeat center;
+    background-size: inherit;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.launchpad-icon:hover::before {
+    opacity: 1;
+}
+
+/*
+#connect:hover {
+  background: url(../img/icons/rocket-active.svg);
+  background-size: 128px 128px;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: block;
+  height: 128px;
+  margin: 15px auto;
+  width: 128px;
+}
+
+.no-svg #connect:hover {
+  background: url(../img/icons/rocket-active.png);
+  background-size: 128px 128px;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: block;
+  height: 128px;
+  margin: 15px auto;
+  width: 128px;
+}
+
+#connect:active {
+  opacity: .6;
+}*/
+
+.no-svg .launchpad-icon {
+  background: url(../img/icons/rocket-inactive.png);
+  background-size: 128px 128px;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: block;
+  height: 128px;
+  margin: 15px auto;
+  width: 128px;
+}
+
+.icon-twitter {
+  background: url(../img/icons/twitter.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-twitter {
+  background: url(../img/icons/twitter.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-droppy {
+  background: url(../img/icons/droppy.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-droppy {
+  background: url(../img/icons/droppy.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-flickr {
+  background: url(../img/icons/flickr.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-flickr {
+  background: url(../img/icons/flickr.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-youtube {
+  background: url(../img/icons/youtube.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-youtube {
+  background: url(../img/icons/youtube.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-facebook {
+  background: url(../img/icons/facebook.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-facebook {
+  background: url(../img/icons/facebook.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-linkedin {
+  background: url(../img/icons/linkedin.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-linkedin {
+  background: url(../img/icons/linkedin.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+/*
+.icon-xmltext {
+  background: url(../img/icons/XMLTextLogo.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}*/
+
+/* .no-svg */ .icon-xmltext {
+  background: url(../img/icons/XMLTextLogo.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-xmlintelledit {
+  background: url(../img/icons/XMLIntellEditLogo.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-xmlintelledit {
+  background: url(../img/icons/XMLIntellEditLogo.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-scava {
+  background: url(../img/icons/scava.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-scava {
+  background: url(../img/icons/scava.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-crossflow {
+  background: url(../img/icons/crossflow.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-crossflow {
+  background: url(../img/icons/crossflow.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-virtualedit {
+  background: url(../img/icons/VirtualEditLogo.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.icon-virtualedit {
+  background: url(../img/icons/VirtualEditLogo.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-intelledit {
+  background: url(../img/icons/IntellEditLogo.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.icon-intelledit {
+  background: url(../img/icons/IntellEditLogo.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-github {
+  background: url(../img/icons/github.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-github {
+  background: url(../img/icons/github.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-university-of-york {
+  background: url(../img/icons/university-of-york.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-university-of-york {
+  background: url(../img/icons/university-of-york.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-business-informatics-group {
+  background: url(../img/icons/business-informatics-group.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+.no-svg .icon-business-informatics-group {
+  background: url(../img/icons/business-informatics-group.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-flowloop {
+  background: url(../img/icons/flowloop.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-dblp {
+  background: url(../img/icons/dblp.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.icon-email {
+  background: url(../img/icons/email.svg);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+.no-svg .icon-email {
+  background: url(../img/icons/email.png);
+  background-size: 128px 128px;
+  background-repeat: no-repeat;
+}
+
+#copyright {
+  bottom: 10px;
+  color: #ebebeb;
+  right: 10px;
+  position: absolute;
+  font-size: 10px;
+}
+
+#copyright a {
+  color: #BADA55;
+  text-decoration: none;
+}
+
+/* preload content */
+/* remote host: https://f001.backblazeb2.com/file/www-content/patrickneubauer.com/htdocs/ */
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:
+      url(../img/icons/rocket-active.svg)
+      /*url(../img/icons/twitter.svg)*/
+      url(../img/icons/linkedin.svg)
+      /*url(../img/icons/github.svg)*/
+      /*url(../img/icons/twitter.svg)*/
+      /*url(../img/icons/XMLTextLogo.svg)*/
+      /*url(../img/icons/XMLTextLogo.png)*/
+      /*url(../img/icons/XMLIntellEditLogo.svg)*/
+      /*url(../img/icons/XMLIntellEditLogo.png)*/
+      /*url(../img/icons/IntellEditLogo.svg)*/
+      /*url(../img/icons/VirtualEditLogo.svg)*/
+      /*url(../img/icons/business-informatics-group.svg)*/
+      url(../img/icons/university-of-york.svg)
+      url(../img/icons/email.svg)
+      /*url(../img/icons/facebook.svg)*/
+      url(../img/icons/flowloop.png)
+      url(../img/icons/dblp.png)
+      /*url(../img/icons/crossminer.svg)*/
+      /*url(../img/icons/crossminer.png)*/
+      url(../img/icons/flickr.svg)
+      url(../img/icons/flickr.png)
+      /*url(../img/icons/youtube.svg)*/
+      /*url(../img/icons/youtube.png)*/
+      url(../img/icons/droppy.png)
+      ;
+}
